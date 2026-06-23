@@ -1,0 +1,131 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+
+}
+header{
+    background-color: #E8E8E8;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-left: 45px;
+}
+
+.inicio a{
+    text-decoration: none;
+    color: white;
+}
+
+.homepage{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #cd84cb;
+    border-radius: 90px;
+    padding: 15px 15px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.principal > .botao {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.principal > .botao button,
+.principal > .botao .person-btn {
+    width: 40px;
+    height: 40px; 
+    font-size: 35px;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1px;
+}
+
+.principal > .botao .person-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    margin-left: 70px;
+}
+
+.principal > .botao .person-text {
+    color: white;
+    font-size: 16px
+
+}
+
+
+
+
+nav{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1100px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 8px;
+    border-radius: 90px;
+    background-color: #84cd86;
+}
+nav .menu2{
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+
+nav .logo2{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+nav ul{
+    list-style: none;
+    
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    margin: 15px;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 60px;
+}
+
+nav ul li a:hover{
+    color: rgba(8, 122, 74, 0.753);
+    width: 3px;
+}
+
+body{
+    background-color: #E8E8E8;
+    font-family: Arial, sans-serif;
+}
