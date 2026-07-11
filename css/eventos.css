@@ -1,0 +1,541 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #E8E8E8;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-left: 45px;
+}
+
+.inicio a{
+    text-decoration: none;
+    color: white;
+}
+
+.homepage{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #cd84cb;
+    border-radius: 90px;
+    padding: 15px 15px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.principal > .botao {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+
+.principal > .botao button,
+.principal > .botao .person-btn {
+    width: 40px;
+    height: 40px; 
+    font-size: 35px;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1px;
+}
+
+.principal > .botao .person-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    margin-left: 70px;
+}
+
+.principal > .botao .person-text {
+    color: white;
+    font-size: 16px
+
+}
+
+.botao a button:hover{
+    transform: scale(1.1);
+}
+
+
+nav{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1100px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 8px;
+    border-radius: 90px;
+    background-color: #84cd86;
+}
+nav .menu2{
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+
+nav .logo2{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+nav ul{
+    list-style: none;
+    
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    margin: 15px;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 60px;
+}
+
+
+
+nav ul li a:hover{
+    color: rgba(8, 122, 74, 0.753);
+    width: 3px;
+}
+
+body{
+    background-color: #E8E8E8;
+    font-family: "Quicksand", sans-serif;
+}
+
+.title h1{
+    color: #cd84cb;
+    font-weight: bold;
+    padding-top: 10px;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-size: 25px;
+    border-bottom: 2px solid #cd84cb;
+    text-align: center;
+}
+
+
+
+
+
+.clube {
+    background-color: #ffffff; 
+    border: 2px solid #cd84cb;  
+    border-radius: 15px;       
+    padding: 15px;
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    margin: 20px auto 40px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: block;
+}
+
+.clube h2 {
+    color: #cd84cb;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.clube p {
+    color: #000000;
+    font-size: 15px;
+    line-height: 1.5;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+
+.clube img {
+    width: 200px;
+    display: block;
+    height: auto;
+    margin: 0 25px 35px 0;
+    border-radius: 10px;
+}
+
+.clube figure {
+    width: auto;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #84cd86;
+
+}
+
+.clube figure figcaption {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #333;
+    margin-left: 16px;
+    margin-bottom: 20px;
+}
+
+.clube h3{
+    text-align: center;
+    display: flex;
+    color: #84cd86;
+    font-size: 20px;
+    max-width: 900px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.clube h3::before,
+.clube h3::after{
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid #84cd86;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.clube .data{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.clube .data p{
+    background-color: #84cd86;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+.conto {
+    background-color: #ffffff; 
+    border: 2px solid #cd84cb;  
+    border-radius: 15px;       
+    padding: 15px;
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    margin: 20px auto 40px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: block;
+}
+
+.conto h2 {
+    color: #cd84cb;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.conto p {
+    color: #000000;
+    font-size: 15px;
+    line-height: 1.5;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.conto h3{
+    text-align: center;
+    display: flex;
+    color: #84cbcd;
+    font-size: 20px;
+    max-width: 900px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.conto h3::before,
+.conto h3::after{
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid #84cbcd;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.conto img {
+    width: 460px;
+    display: flex;
+    height: auto;
+    margin: 0 0 5px 0;
+    border-radius: 10px;
+}
+
+.conto figure {
+    width: auto;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+   
+
+}
+
+.conto figure figcaption {
+    font-size: 15px;
+    color: #333;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.conto .dataconto{
+    display: flex;
+    max-width: 900px;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto 30px auto;
+    border-bottom: 2px solid #84cbcd;
+}
+
+.conto .dataconto p{
+    background-color: #84cbcd;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 45px;
+
+}
+
+
+.competicao {
+    background-color: #ffffff; 
+    border: 2px solid #cd84cb;  
+    border-radius: 15px;       
+    padding: 15px;
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    margin: 20px auto 40px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: block;
+}
+
+.competicao h2 {
+    color: #cd84cb;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.competicao p {
+    color: #000000;
+    font-size: 15px;
+    line-height: 1.5;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.competicao h3{
+    text-align: center;
+    display: flex;
+    color: #84cd86;
+    font-size: 20px;
+    max-width: 900px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.competicao h3::before,
+.competicao h3::after{
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid #84cd86;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.competicao img {
+    width: 460px;
+    display: flex;
+    height: auto;
+    margin: 0 0 5px 0;
+    border-radius: 10px;
+}
+
+.competicao figure {
+    width: auto;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+   
+
+}
+
+.competicao figure figcaption {
+    font-size: 15px;
+    color: #333;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.competicao .datacamp{
+    display: flex;
+    max-width: 900px;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto 30px auto;
+    border-bottom: 2px solid #84cd86;
+}
+
+.competicao .datacamp p{
+    background-color: #84cd86;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 45px;
+
+}
+
+
+footer {
+    background-color: #cd84cb;
+    color: #fff;
+    padding: 40px 60px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.rodape-layout{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;  
+}
+
+.menu-rodape{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.rodape-layout a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rodape-layout a:hover{
+    color: rgba(8, 122, 74, 0.753);
+}
+
+.rodape-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 50px;
+}
+
+.botoes{
+    display: flex;
+    gap: 10px;
+}
+
+.botoes a button{
+    width: 40px;
+    height: 40px; 
+    font-size: 35px;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1px;
+
+}
+
+.botoes a button:hover{
+    transform: scale(1.1);
+}
+
+.endereco{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.copy{
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid;
+    padding-top: 20px;
+}
+
+.copy p{
+    font-size: 16px;
+    margin: 0;
+}
